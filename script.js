@@ -15,7 +15,7 @@ $('.search-btn').on('click', function () {
       let cards = ''
       const movies = results.Search
       movies.forEach((movie) => {
-        //adding cards template
+        //add cards template
         cards += showCards(movie)
       })
       // cards template added to html
